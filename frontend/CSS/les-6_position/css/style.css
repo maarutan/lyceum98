@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bolder;
+	color: white;
+}
+.header a {
+	text-decoration: none;
+	font-weight: 200;
+	color: white;
+}
+.header .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+}
+
+.wrapper {
+	background: #333333;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+.logo img {
+	border: 4px rgb(87, 87, 87) solid;
+}

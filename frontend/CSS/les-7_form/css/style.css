@@ -1,0 +1,179 @@
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+}
+
+.roundMap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.line {
+	height: 3px;
+	width: 200px;
+	background: #8d76be;
+}
+.line2 {
+	height: 3px;
+	width: 200px;
+	background: #ffc80b;
+}
+.elips {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 30px;
+	background: #8d75bf;
+	color: white;
+}
+.elips3 {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 16px;
+	background: #8d75bf;
+	color: white;
+}
+.elips4 {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 16px;
+	background: #ffc80b;
+
+	color: white;
+}
+
+.roundMap2 {
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.line-2 {
+	height: 4px;
+	width: 139px;
+	background: transparent;
+}
+label {
+	cursor: pointer;
+}
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}
+.block2 {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	position: relative;
+	bottom: 95px;
+	width: 300px;
+}
+.button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1000px;
+	padding: 30px;
+	margin: auto;
+}
+/* input {
+} */
+.input {
+	padding: 15px;
+	width: 320px;
+	margin: 10px;
+	border: 1px rgba(0, 0, 0, 0.059) solid;
+	background: #fafafa;
+	border-radius: 7px;
+}
+.input2 {
+	background: #fafafa;
+	border-radius: 7px;
+	padding: 15px;
+	border: 1px rgba(0, 0, 0, 0.059) solid;
+	width: 216px;
+	position: relative;
+	left: 10px;
+}
+.title {
+	color: #a0a3a8;
+	font-size: 15px;
+	margin-left: 20px;
+	letter-spacing: 5px;
+}
+.title2 {
+	color: #a0a3a8;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+
+.radioinput {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	font-size: 20px;
+	color: #a5a9ab;
+}
+.radioinput label {
+	width: 700px;
+}
+.id.active {
+	color: black;
+	font-weight: 300;
+}
+#buy2[type="radio"] {
+	margin-right: 15px;
+	cursor: pointer;
+}
+#buy1[type="radio"] {
+	cursor: pointer;
+}
+.form {
+	margin-top: 100px;
+}
+
+label span {
+	margin-left: 50px;
+}
+.btn1 {
+	background: none;
+	padding: 13px 20px;
+	border: 2px rgba(142, 142, 142, 0.483) solid;
+	border-radius: 25px;
+	transition: 0.3s;
+	&:hover {
+		background: #8f75be;
+		border: 2px solid #8f75be;
+		color: white;
+	}
+}
+.btn2 {
+	transition: 0.3s;
+	background: #8f75be;
+	color: white;
+	padding: 13px 60px;
+	border: 2px rgba(142, 142, 142, 0.483) solid;
+	border-radius: 25px;
+	&:hover {
+		background: #5d4c7e;
+	}
+}

@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background: #e5e5e5;
+}
+.hover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	opacity: 0;
+	right: 0;
+	bottom: 0;
+	gap: 20px;
+	background: rgba(0, 0, 0, 0.5);
+
+	transition: 0.5s;
+}
+.card:hover {
+	background: #dc780b;
+	color: white;
+}
+
+.card:hover .hover {
+	opacity: 1;
+}
+
+.card .hover:hover {
+	background: #00000083;
+}
+.upper-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-items: center;
+}
+
+.card p {
+	font-size: 15px;
+}
+
+.card {
+	padding: 20px;
+	padding-top: 0;
+	position: relative;
+	width: 420px;
+	height: 530px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.526);
+	border-radius: 85px 20px 20px 20px;
+	transition: background 0.5s, color 0.5s;
+	background: #fff;
+	overflow: hidden;
+}
+
+.title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding: 100px;
+}
+.title h4 {
+	margin: 0;
+	padding: 0;
+	color: #dc780b;
+}
+.title h2 {
+	margin: 0;
+	padding: 0;
+	padding: 20px;
+}
+.title h6 {
+	margin: 0;
+	padding: 0;
+	padding: 20px;
+}
+
+.img1 {
+	position: relative;
+	right: 20px;
+}
+.img1,
+.hover {
+	width: 440px;
+	height: 304px;
+	border-radius: 85px 20px 85px 0px;
+}
+.hoverimg img {
+	height: 30px;
+	max-width: 30px;
+}
+.hoverimg {
+	cursor: pointer;
+	padding: 10px;
+	background: #dc780b;
+	border-radius: 10px;
+	/* display: none; */
+}
+
+.plus {
+	padding: 5px 13px;
+	border-radius: 10px;
+	background: #dc780b;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.card:hover .plus {
+	background: white;
+	color: #dc780b;
+}
+
+.card-container {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(3, 425px);
+	gap: 30px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}

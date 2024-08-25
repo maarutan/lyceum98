@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.upperBlcok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(50deg, #fc71cc, #7c73f4);
+  width: 310px;
+  height: 180px;
+  border-radius: 10px;
+  color: white;
+  font-weight: medium;
+  font-size: 30px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.344);
+  position: relative;
+  bottom: 60px;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-facebook {
+  width: 16px;
+  height: 16px;
+}
+
+.iconscon span {
+  padding: 8px;
+  border-radius: 100%;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.483);
+}
+
+.iconscon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.upperBlcok span {
+  font-size: 16px;
+  color: white;
+}
+
+.cards {
+  width: 330px;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.408);
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  font-weight: 500;
+  color: #828281;
+  padding-bottom: 30px;
+  background: #ffffff;
+  height: 380px;
+}
+.cards2 img {
+  border-radius: 10px 10px 0 0;
+  width: 330px;
+  height: 200px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.332);
+}
+.cards2 {
+  border-radius: 10px;
+  width: 330px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.373);
+  border-radius: 10px;
+}
+.cards2 h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 15px;
+}
+
+.cards2 h5 {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+.cards2 p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: #828281;
+}
+.icon2 .span1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.483);
+}
+.svgcard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.svgcard2 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 1000px;
+}
+
+.svgcard2 span svg {
+  width: 16px;
+  height: 16px;
+}
+.facebook {
+  background: #355a97;
+}
+.twitter {
+  background: #59aae7;
+}
+
+.dribbling {
+  background: #f34a8d;
+}
+
+.blcok2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.cards3 img {
+  width: 330px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.cards3 {
+  width: 330px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.403);
+  border-radius: 10px;
+}
+
+.cardsF p {
+  font-size: 13px;
+  text-align: start;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #828281;
+}
+.cardsF {
+  padding: 10px 20px;
+}
+
+.cardsF button {
+  background: #4385f5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
