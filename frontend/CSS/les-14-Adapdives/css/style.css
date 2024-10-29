@@ -1,77 +1,45 @@
-* {
-	box-sizing: border-box;
-	padding: 0;
-}
-
 body {
-	font-family: Montserrat, sans-serif;
-	margin: 10px;
-}
-.dick {
-	height: 1000px;
-	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
-.penis {
-	position: absolute;
-	background: #f3d6d6;
-	width: 200px;
-	height: 700px;
-	border-radius: 90px 90px 0 0;
-	left: 1100px;
-}
-
-.yaico {
-	background: #f3d6d6;
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-}
-.line {
-	display: flex;
-	justify-content: start;
-	align-items: center;
-	flex-direction: column-reverse;
-	font-size: 25px;
-	border-radius: 90px 90px 0 0;
-	color: white;
-	height: 140px;
-	background: rgb(255, 168, 168);
-}
-.yaicos {
-	display: flex;
-	position: absolute;
-	left: 950px;
-	top: 550px;
-}
-.dick {
-	display: inline-block;
-	top: 100px;
-}
-.dick.is-active {
-	display: block;
-}
-.dickFuck.none {
-	display: none;
-}
-#fuck {
-	padding: 30px 60px;
-	border-radius: 30px;
-	color: aliceblue;
-	border: none;
-	font-size: 30px;
-	font-weight: bold;
-	background: #207bdc;
-	transition: 0.2s linear;
-	&:hover {
-		background: #0c2743;
-		cursor: pointer;
-	}
-}
-.dickFuck {
+.header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	margin-top: 450px;
+	gap: 300px;
+	padding: 20px 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	position: relative;
+	right: 240px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	padding: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.regAMass {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.regAMass a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
 }
